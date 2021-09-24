@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  min-width: 34vw;
+  height: 80vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: #1f1f1fd7;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family: Ubuntu;
+  font-weight: bold;
+  box-shadow: 5px 5px 20px rgb(34, 34, 34);
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background:  rgb(182, 182, 182)
+
+}
+
+
+::-webkit-scrollbar-thumb {
+  background:grey;
+  
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(77, 77, 77);
+}
+
+@media screen and (max-width : 600px) {
+  .app{
+    max-width: 80vw;
+    height: 85vh;
+  }
+}

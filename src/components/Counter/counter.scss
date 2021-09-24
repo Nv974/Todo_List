@@ -1,0 +1,39 @@
+.counter {
+  height: 4rem;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 1rem;
+
+  &__ratio {
+    width: 100%;
+    background-color: white;
+    height: 8px;
+    position: relative;
+    &__range {
+      position: absolute;
+      margin: 0 auto;
+      height: 8px;
+      width: 100%;
+      -webkit-appearance: none;
+      background: linear-gradient(
+        90deg,
+        rgb(98, 228, 152),
+        rgb(2, 200, 152),
+        rgb(98, 228, 152)
+      );
+
+      &::-moz-range-thumb {
+        width: 0;
+        height: 0;
+      }
+
+      &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        border-radius: 100%;
+      }
+    }
+  }
+}
