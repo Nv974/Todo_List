@@ -8,11 +8,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Pré-requis : il faut avoir NodeJs installé sur sa machine https://nodejs.org/en/
 
-1. Installer les packages
+1. Installer les packages </br>
    Lancer la commande suivante dans votre terminal :
    npm install ou yarn
    
-3. Lancer le serveur
-
-  npm start ou yarn start
+3. Lancer le serveur </br>
+   npm start ou yarn start
 
